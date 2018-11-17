@@ -1,0 +1,17 @@
+{
+  "name": "next_monday",
+  "version": "1.0.0",
+  "description": "Allows you to find the nearest day of the week. For example, the nearest saturday. Or next monday. Or the previous thursday.",
+  "main": "monday.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "date",
+    "monday",
+    "time",
+    "week"
+  ],
+  "author": "Leonardo Bighi",
+  "license": "ISC"
+}
