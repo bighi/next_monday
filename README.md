@@ -22,6 +22,8 @@ Then you can use any of its methods to find the day of the week you want.
 
 They expect ONE argument: the day of the week. It can be the **name** of the day (like "Saturday" or "saturday"), or the **number** of the day like JavaScript does (0 is Sunday, 1 is Monday, etc).
 
+There's a short version for all those methods, if you dislike longer method names.
+
 **All of those methods will return a Date object.**
 
 ### Finding the nearest day of week
@@ -30,17 +32,29 @@ This method will return the **nearest** day of the week. It may be **before** or
 
 `date = nm.findNearestDayOfWeek('friday')`
 
+or
+
+`date = nm.nearest('friday')`
+
 ### Finding the next day of the week
 
 This method will return the nearest desired day AFTER today. You use this when you want a guarantee that the day is in the future.
 
 `date = nm.findNextDayOfWeek('monday')`
 
+or
+
+`date = nm.next('friday')`
+
 ### Finding the previous day of the week
 
 This method will return the nearest desired day BEFORE today. You use this when you want a guarantee that the day is in the past.
 
 `date = nm.findPreviousDayOfWeek('thursday')`
+
+or
+
+`date = nm.previous('friday')`
 
 ## That's it
 

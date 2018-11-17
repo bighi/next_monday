@@ -6,6 +6,7 @@ function findNearestDayOfWeek (dayOfWeek) {
   date.setDate(date.getDate() + (7 + dayOfWeek - date.getDay()) % 7)
   return date
 }
+const nearest = findNearestDayOfWeek
 
 function findPreviousDayOfWeek (dayOfWeek) {
   if (dayOfWeek === undefined || dayOfWeek === null) { return false }
@@ -20,6 +21,7 @@ function findPreviousDayOfWeek (dayOfWeek) {
 
   return date
 }
+const previous = findPreviousDayOfWeek
 
 function findNextDayOfWeek (dayOfWeek) {
   if (dayOfWeek === undefined || dayOfWeek === null) { return false }
@@ -34,6 +36,7 @@ function findNextDayOfWeek (dayOfWeek) {
 
   return date
 }
+const next = findNextDayOfWeek
 
 function dayNameToNumber (name) {
   if (name === undefined || name === '') { return false }
@@ -72,5 +75,7 @@ module.exports = {
   findNearestDayOfWeek,
   findPreviousDayOfWeek,
   findNextDayOfWeek,
-  dayNameToNumber
+  nearest,
+  previous,
+  next
 }
