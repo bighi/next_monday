@@ -64,4 +64,4 @@ Yes, that's it. Just a small and simple library.
 
 This was created by Leonardo Bighi.
 
-You can find me on [twitter](www.twitter.com/bighi).
+You can find me on [twitter](https://www.twitter.com/bighi).
