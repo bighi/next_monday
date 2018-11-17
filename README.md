@@ -40,11 +40,11 @@ or
 
 This method will return the nearest desired day AFTER today. You use this when you want a guarantee that the day is in the future.
 
-`date = nm.findNextDayOfWeek('monday')`
+`date = nm.findNextDayOfWeek('Monday')`
 
 or
 
-`date = nm.next('friday')`
+`date = nm.next('monday')`
 
 ### Finding the previous day of the week
 
@@ -54,7 +54,7 @@ This method will return the nearest desired day BEFORE today. You use this when 
 
 or
 
-`date = nm.previous('friday')`
+`date = nm.previous('Friday')`
 
 ## That's it
 
